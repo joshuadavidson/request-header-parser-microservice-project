@@ -1,0 +1,23 @@
+{
+  "name": "request-header-parser-microservice-project",
+  "version": "1.0.0",
+  "description": "Free code camp request header parser microservice project.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuadavidson/request-header-parser-microservice-project.git"
+  },
+  "author": "Joshua Davidson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshuadavidson/request-header-parser-microservice-project/issues"
+  },
+  "homepage": "https://github.com/joshuadavidson/request-header-parser-microservice-project#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
