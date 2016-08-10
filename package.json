@@ -19,6 +19,7 @@
   "homepage": "https://github.com/joshuadavidson/request-header-parser-microservice-project#readme",
   "dependencies": {
     "express": "^4.14.0",
+    "request-ip": "^1.2.2",
     "useragent": "^2.1.9"
   }
 }
