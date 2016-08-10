@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000; //set the port to server port or 3000 for
 const useragent = require('useragent'); //get useragent package to parse useragent header
 useragent(true);//update useragent with the current RegEx library
 
-const requestIp = require('request-ip');
+const requestIp = require('request-ip'); //use the request-ip package to get user's ip address from header
 
 //serve static assets from the public folder
 app.use('/assets', express.static(__dirname + '/public'));
